@@ -1,0 +1,18 @@
+# Build outputs
+build/
+
+# Local tooling and temp config
+.arduino-cli.local.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Release staging assets (uploaded to GitHub Releases, not committed)
+release-assets/
